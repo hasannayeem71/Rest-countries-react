@@ -5,9 +5,22 @@
   margin: 5px;
 }
 .country img {
-  max-height: 300;
+  max-height: 300px;
   max-width: 300px;
 }
 .capital {
   color: darkblue;
+}
+@media only screen and (max-width: 768px) {
+  .country {
+    margin: 5px 10px;
+    padding: 2px;
+  }
+  .country img {
+    max-width: 300px;
+    max-height: 250px;
+  }
+  .country:last-child {
+    margin-bottom: 20px;
+  }
 }
