@@ -1,0 +1,10 @@
+.country {
+  background-color: lightcyan;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 5px;
+}
+.country img {
+  max-height: 300;
+  max-width: 300px;
+}
