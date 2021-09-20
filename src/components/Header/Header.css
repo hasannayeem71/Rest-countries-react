@@ -1,0 +1,18 @@
+.header {
+  background-color: teal;
+  padding: 1px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  position: sticky;
+  top: 0;
+}
+
+.header button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
